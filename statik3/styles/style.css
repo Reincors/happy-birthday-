@@ -1,0 +1,29 @@
+@media (min-width: 319px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-family: "Montserrat", sans-serif;
+        color: yellow;
+    }
+
+    p{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    #img_1_1 {
+        height: 0;
+        width: 0;
+        opacity: 0;
+        transition: 2s;
+    }
+
+    #img_1:checked~#img_1_1{
+        height: auto;
+        width: 320px;
+        opacity: 1;
+    }
+}

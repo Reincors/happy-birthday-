@@ -1,0 +1,21 @@
+@media (max-width: 425px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    p{
+        color: #FFF8DC;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    a{
+        color: #FFF8DC;
+    }
+
+}
